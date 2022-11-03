@@ -9,4 +9,10 @@ fn main() {
     }
     
     println!("The value of x is: {}", x);
+
+    // shadowing
+    let spaces = "     ";
+    let spaces = spaces.len();
+
+    println!("The space length is: {}", spaces);
 }
